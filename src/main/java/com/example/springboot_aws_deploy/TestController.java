@@ -11,5 +11,9 @@ public class TestController{
     public String getData(){
      return "First Message from Amazon AWS ECS" ;  
     }
+        @GetMapping("/message")
+    public String getMessage(){
+     return "Second Message from Amazon AWS ECS! Dipen!" ;  
+    }
 }
 
